@@ -1,0 +1,15 @@
+.Navbar{
+    background-color: aliceblue;
+    width:100%;
+    height:80px;
+    display: flex;
+    font-family: "Raleway", sans-serif;
+}
+
+.Navbar .leftside{
+    flex:30%;
+}
+
+.Navbar .rightside{
+    flex:70%;
+}
