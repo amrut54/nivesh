@@ -1,0 +1,120 @@
+#contact-banner{
+          padding: 50px 0px 50px 0px;
+}
+@media(min-width:768px){
+          .form-flex1{
+                    display: flex;
+                    justify-content: space-between;
+          }     
+}
+
+.contact-iconflex{
+          display: flex;
+          color: white;
+          margin-bottom: 32px;
+}
+
+.contact-head>p{
+          font-size: 24px;
+          font-weight:400;
+          margin-right:50%;
+          line-height: 32px;
+          margin-bottom: 32px;
+          margin-top: 32px;
+}
+.contactform-flex{
+          flex: 60%;
+          background-color: #EEEEEE;
+          padding: 55px 130px 55px 130px;
+         
+
+}
+.form-heading{
+          font-size: 22px;
+          font-weight: 500;
+}
+
+.form_name1, .form_email1, .form_phone1, .form_message{
+    padding:10px !important;
+      font-family:'Raleway' !important;
+      font-size:15px !important;
+     color: #A1A1A1 !important;
+      border: 1px solid black !important;
+      border-radius:5px;
+  }
+
+  .conatactform> input[type=text]{
+     width:100%;
+  }
+  
+
+  .form_email1, .form_phone1{
+      width:50% !important;
+  }
+
+
+.form_message{
+    width:100% !important;
+}
+
+.contact-information{
+          background: linear-gradient(
+                    270deg, #213065 -4.69%, #3D82C0 106.25%);
+                    padding: 50px;
+                    flex: 40%;
+}
+
+#contact-becomeposp{
+          font-family: "Raleway", Sans-serif;
+          background: #F89748;
+          border:none;
+          font-size: 18px;
+          font-weight: 500;
+          color:white;
+          padding: 15px 42px 15px 42px;
+          border-radius: 6px;
+          margin-right: 15px;
+}
+
+#contact-enquiry{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+    fill: #898989;
+    color: #898989;
+    background-color: #A3A3A300;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #4D4D4D;
+    border-radius: 5px;
+    padding: 15px 62px 15px 62px;
+    margin-left:15px;
+}
+
+.contact-head{
+          margin-bottom: 40px;
+}
+
+.form-heading1{
+    color: white;
+    font-size: 22px;
+          font-weight: 500;
+}
+
+.contact-information> p{
+    color: white;
+}
+
+#form_button1{
+    margin-top: 24px;
+    width:auto;
+    text-align: left;
+    padding:12px 42px 12px 42px;
+    background: #3F89C8;
+    border:none;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Raleway", sans-serif;
+    color: white;
+}

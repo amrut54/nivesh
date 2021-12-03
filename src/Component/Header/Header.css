@@ -1,0 +1,11 @@
+.logo {
+          float: left;
+          
+      }
+      @media(min-width:768px) {
+          .logo {
+              float: left;
+              margin-left: 0px;
+              max-width:100%;
+          }
+      }

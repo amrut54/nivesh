@@ -1,0 +1,223 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,600;0,700;1,400;1,500&family=Raleway:wght@300&display=swap');
+
+h2{
+  font-family: "Montserrat", Sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 45px;
+  /* identical to box height, or 107% */
+  text-transform: capitalize;
+  color: #000000;
+  }
+
+  h3{
+    font-family: "Montserrat", Sans-serif;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 22px;
+   line-height: 30px;
+   /* identical to box height, or 107% */
+   text-transform: capitalize;
+   color: #000000;
+  }
+
+  h5{
+    font-family: "Montserrat", Sans-serif;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 30px;
+   /* identical to box height, or 107% */
+   text-transform: capitalize;
+   color: #000000;
+  }
+
+  p{
+    font-family: "Montserrat", sans-serif;
+    font-size:18px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+  }
+
+  .btn-primary{
+    background-color: #3F89C8;
+    border:none;
+    padding:12px 50px 12px 50px;
+  }
+
+  ul {
+    list-style: disc;
+    margin-left: 20px;
+    padding: 0px;
+    font-size: 18px;
+    line-height: 36px;
+    color: white;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  th, td, tr{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 36px;
+  }
+
+
+/** Main Banner **/
+.main-box h2{
+  text-align: left;
+}
+
+.main-box p{
+  text-align: left;
+  font-size: 24px;
+  line-height: 45px;
+  font-weight: 500;
+
+}
+
+.main-box-right img{
+  max-width:100%;
+}
+ 
+
+/** Set your goals **/
+
+.goal-box{
+  border: 1px solid #C4C4C4;
+  text-align: center;
+  padding: 10px;
+}
+
+#goals h2{
+  text-align: center;
+}
+
+.card-body{
+  text-align: center;
+}
+
+.card-text{
+  text-align: center;
+}
+/** achove goals section **/
+
+#achieve-goal{
+  background:linear-gradient(270deg, #22366B -4.69%, #3C80BF 106.25%) ;
+}
+
+#achieve-goal h2,h6{
+  text-align: center;
+  color: white;
+}
+
+.achieve-box .card-body{
+  text-align: center;
+  padding: 50px;
+}
+
+/** Product section **/
+
+#products{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#products h2{
+  text-align: center;
+}
+
+.product-heading{
+  font-size: 36px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.product-flex{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 50px;
+}
+
+#product-button{
+  background: #FFFFFF;
+border: 1px solid #3F89C8;
+box-sizing: border-box;
+width:100%;
+text-align: center;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 45px;
+}
+
+.product-box img{
+  margin-bottom: 20px;
+}
+
+.container-wrapper{
+  padding-top:50px;
+  padding-bottom:50px;
+}
+
+
+#map-section{
+  background:linear-gradient(
+    90deg, #3C80BF 15.16%, #243B71 80.47%);
+}
+
+
+.card-box img{
+  width:50%;
+}
+.map-flex{
+  display: flex;
+  align-items: center;
+  border: 1px solid white;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+
+.map-flex img{
+  width:30%;
+}
+
+.map-flex h3{
+  text-align: right;
+  font-size:28px;
+  font-weight:700;
+  color: white;
+  margin-left:15px;
+}
+
+#redsection-stats{
+  background: linear-gradient(
+    90deg, #F27980 15.16%, #EE3E48 80.47%); ;
+}
+
+
+#awards h2{
+  text-align: center;
+  margin-bottom: 42px;
+}
+.awards-box img{
+  max-width:60%;
+}
+
+.awards-box {
+  text-align: center;
+}
+
+.awards-box h3{
+  margin-right:15%;
+  margin-left:15%;
+}

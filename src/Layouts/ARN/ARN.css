@@ -1,0 +1,83 @@
+.ARN-box p{
+          text-align: left;
+
+}
+
+#arncode-section{
+          background: linear-gradient(90.15deg, #F58D94 -2.95%, #EE3A43 81.36%);
+}
+
+#arn-number{
+          background: linear-gradient(270deg, #3C80BF 15.16%, #243B71 80.47%);
+}
+#arn-number h2{
+          color: white;
+}
+
+.thead-blue{
+          padding: 20px;
+
+}
+
+.custom-table>thead>tr>th {
+          padding: 30px;
+          background-color: #202D62;
+          color: white;
+}
+
+.custom-table>tbody>tr>th{
+          padding: 30px;
+          background-color: #C4DFF4;
+}
+
+.custom-table>tbody>tr>td{
+          padding: 30px;
+          background-color: #C4DFF4;
+}
+
+#registration-process{
+          background-color: #F8F8F8;
+}
+
+.form_name, .form_email, .form_phone{
+          padding:10px !important;
+                  font-family:'Raleway' !important;
+                  font-size:20px !important;
+           color: #A1A1A1 !important;
+                  border: 1px solid #61D68E !important;
+        }
+        .form-1 button{
+          background: #F89748 !important;
+        border-radius: 5px;
+                  border:0px;
+                  font-family: Raleway;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 23px;
+        letter-spacing: -0.02em;
+        width:100%;
+        padding:16px;
+        
+        color: #FFFFFF;
+        }
+        
+        input[type=email], input[type=number],  input[type=tel], input[type=text]{
+          width: 100%;
+          margin-bottom: 24px;
+        }
+        .formWord{
+          border: 1px solid #61d68e;
+          margin:20px;
+          padding: 35px;
+          text-align: center;
+        }
+        .formWord>label{
+          font-size:16px;
+          font-weight:400;
+          margin-top: 20px;
+        }
+        
+        input[type=checkbox]{
+          margin-right:10px;
+        }
