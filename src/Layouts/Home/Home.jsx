@@ -28,7 +28,7 @@ export class Home extends React.Component {
            <div className="container container-wrapper">
              <div className="row">
             <div className="col-md-6 main-box">
-            <API />
+           
                     <h2>HEADLINE</h2>
                     <p>World-class wealth management using science, data and technology, leveraged by our experience, and human touch.</p>
                     <button type="button" class="btn btn-primary btn-lg">CTA</button>

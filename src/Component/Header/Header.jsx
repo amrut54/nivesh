@@ -1,10 +1,8 @@
 import React from 'react';
 import './Header.css';
-import { Navbar } from 'react-bootstrap';
 import {
   Nav,
   NavLink,
-  Bars,
   NavMenu,
   NavBtn,
   NavBtnLink
@@ -18,7 +16,7 @@ const Header = () => {
       <NavLink to='/' activeStyle>
         <img class="logo" src={logo} alt="" width="75%"/>
       </NavLink>
-        <Bars />
+   
         <NavMenu>
           <NavLink to='/aboutus' activeStyle>
             About Us
