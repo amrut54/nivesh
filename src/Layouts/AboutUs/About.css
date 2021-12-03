@@ -1,0 +1,49 @@
+.team-box{
+          text-align: center;
+          margin-top: 32px;
+}
+
+#team h2{
+    text-align: center;
+}
+
+#team p{
+    text-align: center;
+}
+
+#about-investor h2{
+          text-align: center;
+          color: white;
+}
+
+#about-investor{
+          background:linear-gradient(270deg, #22366B -4.69%, #3C80BF 106.25%) ;
+}
+
+#our-partners h2{
+          text-align: center;
+}
+
+
+#about-stats{
+          background:linear-gradient(270deg, #22366B -4.69%, #3C80BF 106.25%) ;
+}
+.card-box{
+          border: 1px solid white;
+          padding: 30px;
+          text-align: center;
+          color: white;
+          height: 200px;
+}
+
+.card-box h3{
+          color: white;
+}
+
+#featured-news{
+          background: #E2E9F1;
+}
+
+#featured-news h2{
+          text-align: center;
+}

@@ -1,15 +1,11 @@
-.Navbar{
-    background-color: aliceblue;
-    width:100%;
-    height:80px;
-    display: flex;
-    font-family: "Raleway", sans-serif;
-}
-
-.Navbar .leftside{
-    flex:30%;
-}
-
-.Navbar .rightside{
-    flex:70%;
-}
+.logo {
+          float: left;
+          
+      }
+      @media(min-width:768px) {
+          .logo {
+              float: left;
+              margin-left: 0px;
+              max-width:100%;
+          }
+      }
