@@ -17,6 +17,7 @@ import aimg6 from './images/FD-2.png'
 import aimg7 from './images/FD-2.png'
 import aimg8 from './images/FD-2.png'
 import API from '../../Component/API/api'
+import NumbersAPI from '../../Component/NumbersAPI/NApi'
 
 
 
@@ -28,6 +29,8 @@ export class Home extends React.Component {
            <div className="container container-wrapper">
              <div className="row">
             <div className="col-md-6 main-box">
+
+             <NumbersAPI />
            
                     <h2>HEADLINE</h2>
                     <p>World-class wealth management using science, data and technology, leveraged by our experience, and human touch.</p>
@@ -45,7 +48,7 @@ export class Home extends React.Component {
            <div class="container container-wrapper">
               <h2>Set your Goals</h2>
                 <div className="row">
-                     <div class="col-lg-3 col-md-6 col-12">
+                     <div class="col-lg-3 col-md-6 col-12 mb-4">
                         <div class="card">
                             <img src={gimg1} alt="" width="100%"></img>
                               <div class="card-body">
@@ -55,7 +58,7 @@ export class Home extends React.Component {
                              </div>
                         </div>
                       </div> 
-                      <div class="col-lg-3 col-md-6 col-12">
+                      <div class="col-lg-3 col-md-6 col-12 mb-4">
                         <div class="card">
                             <img src={gimg1} alt="" width="100%"></img>
                               <div class="card-body">
@@ -65,7 +68,7 @@ export class Home extends React.Component {
                              </div>
                         </div>
                       </div> 
-                      <div class="col-lg-3 col-md-6 col-12">
+                      <div class="col-lg-3 col-md-6 col-12 mb-4">
                         <div class="card">
                             <img src={gimg1} alt="" width="100%"></img>
                               <div class="card-body">
@@ -75,7 +78,7 @@ export class Home extends React.Component {
                              </div>
                         </div>
                       </div> 
-                      <div class="col-lg-3 col-md-6 col-12">
+                      <div class="col-lg-3 col-md-6 col-12 mb-4">
                         <div class="card">
                             <img src={gimg1} alt="" width="100%"></img>
                               <div class="card-body">
@@ -95,7 +98,7 @@ export class Home extends React.Component {
                     <h6>With a combination of Technology & Human Touch</h6>
                       <div className="row row justify-content-md-center">
                           <div className="col col-lg-4 achieve-box">
-                            <div className="card">
+                            <div className="card mb-4">
                               <div className="card-body">
                               <h3>Technologies</h3>
                               <p>Nemo enim ipsam voluptatem quia voluptas sit aspernaturaut odit aut fugit, sed quia.</p>
@@ -104,7 +107,7 @@ export class Home extends React.Component {
                               </div>
                          </div>
                          <div className="col col-lg-4 achieve-box">
-                         <div className="card">
+                         <div className="card mb-4">
                          <div className="card-body">
                            <h3>Human Toch</h3>
                            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernaturaut odit aut fugit, sed quia.</p>

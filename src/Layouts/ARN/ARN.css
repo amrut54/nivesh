@@ -7,11 +7,20 @@
           background: linear-gradient(90.15deg, #F58D94 -2.95%, #EE3A43 81.36%);
 }
 
+#arncode-section h2{
+  color:white;
+}
+
 #arn-number{
           background: linear-gradient(270deg, #3C80BF 15.16%, #243B71 80.47%);
 }
 #arn-number h2{
           color: white;
+          
+}
+
+.arn-nhead{
+  text-align: center;
 }
 
 .thead-blue{

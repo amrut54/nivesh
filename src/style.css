@@ -1,0 +1,1094 @@
+
+
+/**
+ * style v2.3.4
+ * Copyright 2013-2018 David Deutsch
+ * Licensed under: SEE LICENSE IN https://github.com/OwlCarousel2/OwlCarousel2/blob/master/LICENSE
+ */
+
+
+/*
+ *  
+ */
+
+.fairaAssets {
+  margin-top: 60px;
+}
+
+.fairaAssets h2 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+  color: #1E2A5E;
+  margin-bottom: 20px;
+}
+
+.fairaAssets p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  color: #575757;
+  margin-bottom: 20px;
+}
+
+.registerFair h2 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 34px;
+  color: #1E2A5E;
+  margin-bottom: 10px;
+}
+
+.registLft {
+  float: left;
+  width: 45%;
+  text-align: center;
+}
+
+.registLft select {
+  background: #3F89C8 url("http://uprankdigital.co.in/Demo/nivesh/assets/images/dropdown_arrow.png") no-repeat right 10px !important;
+  border-radius: 5px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+
+.registLft span {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 49px;
+  color: #000000;
+}
+
+.registRgt {
+  float: right;
+  width: 45%;
+  text-align: center;
+}
+
+.registRgt select {
+  background: #3F89C8 url("http://uprankdigital.co.in/Demo/nivesh/assets/images/dropdown_arrow.png") no-repeat right 10px !important;
+  border-radius: 5px;
+  color: #fff;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+
+.registRgt span {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 49px;
+  color: #000000;
+}
+
+.getStarted {
+  background: #F8F8F8;
+  padding: 50px 0px 30px;
+  margin: 50px 0px;
+}
+
+.getStartedBtn {}
+
+.getStartedBtn h2 {
+  margin-top: 140px;
+}
+
+.landMoney {
+  float: left;
+  width: 45%;
+  text-align: center;
+}
+
+.landMoney a {
+  color: #3F89C8;
+  border: 1px solid #3F89C8;
+  border-radius: 5px;
+  text-align: center;
+  display: block;
+  padding: 10px;
+}
+
+.landMoney a:hover {
+  color: #fff;
+  background: #3F89C8;
+}
+
+.landMoney span {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 49px;
+  color: #000000;
+  text-align: center;
+}
+
+.borrowMoney {
+  float: right;
+  width: 45%;
+  text-align: center;
+}
+
+.borrowMoney a {
+  color: #3F89C8;
+  border: 1px solid #3F89C8;
+  border-radius: 5px;
+  text-align: center;
+  display: block;
+  padding: 10px;
+}
+
+.borrowMoney a:hover {
+  color: #fff;
+  background: #3F89C8;
+}
+
+.borrowMoney span {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 49px;
+  color: #000000;
+  text-align: center;
+}
+
+.stepWrp {
+  margin-bottom: 20px;
+  float: left;
+}
+
+.stepLft {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 45px;
+  color: #1E2A5E;
+  width: 20%;
+  float: left;
+}
+
+.stepRgt {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 35px;
+  color: #686666;
+  width: 78%;
+  float: right;
+}
+
+.features {
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.features h2 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 49px;
+  color: #000000;
+}
+
+.features .ctaBtn {
+  width: 150px;
+  margin: 20px auto;
+}
+
+.features .ctaBtn a {
+  background: #3F89C8;
+  color: #fff;
+  background: #3F89C8;
+  border-radius: 5px;
+  text-align: center;
+  display: block;
+  padding: 10px;
+}
+
+.imgFeatures img {
+  display: block;
+  width: 150px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.imgFeatures h4 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 25px;
+  color: #000000;
+  text-align: center;
+  height: 60px;
+}
+
+.imgFeatures p {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.invest {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.invest h2 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 49px;
+  color: #000000;
+}
+
+.invest .imgFeatures {
+  background: #F8F8F8;
+  width: 270px;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+
+.getCustomer {
+  background-color: #2a2a72;
+  background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+  width: 100%;
+}
+
+.customerDiv {
+  border: 1px solid #fff;
+  color: #fff;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.customerDiv p {
+  color: #fff !important;
+  margin-top: 85px;
+  margin-bottom: 85px;
+}
+
+.calCulator {
+  background: #F8F8F8;
+  padding: 50px 0px 30px;
+}
+
+.calCulator h2 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 49px;
+  color: #243B71;
+  text-align: center;
+}
+
+.lftCal {}
+
+.lftCal .form-check {
+  float: left;
+  width: 265px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  color: #000000;
+}
+
+.lftCal .radioDiv {
+  float: left;
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.lftCal input[type='text'] {
+  margin-left: 30px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  color: #000000;
+}
+
+.lftCal label {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  color: #000000;
+  width: 235px;
+}
+
+.lftCal select {
+  width: 255px;
+}
+
+.lftCal .selectDiv label {
+  float: left;
+  width: 269px;
+}
+
+.lftCal .selectDiv select {
+  float: left;
+}
+
+.lftCal .selectDiv {
+  margin-top: 25px;
+  float: left;
+}
+
+.pricipalDiv {
+  background: #fff;
+  padding: 5% 7%;
+}
+
+.princiPalLft {
+  float: left;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  color: #000000;
+  width: 200px;
+  margin-top: 20px;
+}
+
+.princiPalRgt {
+  float: left;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  color: #000000;
+  margin-top: 20px;
+}
+
+.pricipalDiv input[type='submit'] {
+  color: #fff;
+  background: #3F89C8;
+  border-radius: 5px;
+  text-align: center;
+  display: block;
+  padding: 10px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.clearDiv {
+  clear: both;
+}
+
+.testimonials {
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.testimonials h2 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  text-transform: uppercase;
+  color: #1E2A5E;
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+.testimonials .imgFeatures {
+  background: #FFFFFF;
+  box-shadow: 6px 7px 11px -2px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.testimonials .imgFeatures img {
+  width: 100%;
+}
+
+.testimonials .imgFeatures p {
+  padding: 2%;
+}
+
+.testimonials .imgFeatures h4 {
+  height: 30px;
+}
+
+.testimonials h3 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  color: #000000;
+}
+
+.landingPlatforms {
+  background-color: #ee3d46;
+  background-image: linear-gradient(315deg, #ee3d46 0%, #f5878e 90%);
+  width: 100%;
+  padding: 50px 0px;
+}
+
+.landingPlatforms h2 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  color: #FFFFFF;
+}
+
+.landingPlatforms p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: justify;
+  letter-spacing: -0.02em;
+  color: #FFFFFF;
+}
+
+.landingPlatforms ol {
+  color: #fff;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: justify;
+  letter-spacing: -0.02em;
+  color: #FFFFFF;
+}
+
+.landingPlatforms ol li {
+  list-style-type: decimal;
+}
+
+
+/* Our Partners */
+
+.ourPartnerWrp {
+  padding: 50px 0px;
+}
+
+.ourPartnerWrp h2 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 45px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.ourPartnerWrp p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  text-transform: capitalize;
+
+  text-align: center;
+}
+
+.ourPartnerDiv {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.ourPartner {
+  background: #fff;
+  padding: 5%;
+  max-width: 350px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.ourPartner h4 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #000000;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+.ourPartner p {
+  color: #000000 !important;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: -0.015em;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.ourPartnerWrp .ctaBtn a {
+  color: #fff;
+  background: #3F89C8;
+  border-radius: 5px;
+  text-align: center;
+  display: block;
+  padding: 10px;
+}
+
+.ctaBtnOur a {
+  background: #fff;
+  width: 230px;
+  display: block;
+  margin: 50px auto 0px;
+  color: #3F89C8;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  text-transform: capitalize;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+
+/* Bajaj Finance */
+
+.startInvest {
+  background: #3F89C8;
+  border-radius: 5px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  padding: 10px;
+}
+
+.bajajFeatures {
+  margin-top: 50px;
+}
+
+.bajajInvest {
+  background: #F8F8F8;
+  padding: 50px 0px 30px;
+}
+
+.bajajInvest h2 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  color: #243B71;
+}
+
+.bajajInvest .invest .imgFeatures {
+  background: #fff !important;
+}
+
+.rightSign .imgFeatures {
+  background: #fff;
+}
+
+.rightSign .imgFeatures img {
+  width: 40px;
+}
+
+.rightSign .ctaBtn a {
+  color: #fff;
+  background: #3F89C8;
+  border-radius: 5px;
+  text-align: center;
+  display: block;
+  padding: 10px;
+  width: 200px;
+  margin: 0 auto;
+}
+
+.ourPartCaptital {}
+
+.ourPartCaptital .invest .imgFeatures {
+  background: #fff;
+  background: #FFFFFF;
+  border: 1px solid #C4C4C4;
+  box-sizing: border-box;
+}
+
+.moreLink a {
+  color: #fff;
+  background: #3F89C8;
+  border-radius: 5px;
+  text-align: center;
+  display: block;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+
+/* Tab css */
+
+.nav-t {
+  margin-bottom: 1.25rem;
+  margin-left: 0;
+  list-style: none;
+}
+
+.nav-t>li>a {
+  display: block;
+}
+
+.nav-tabs {
+  *zoom: 1;
+}
+
+.nav-tabs:before,
+.nav-tabs:after {
+  display: table;
+  content: "";
+}
+
+.nav-tabs:after {
+  clear: both;
+}
+
+.nav-tabs>li {
+  float: left;
+}
+
+.nav-tabs>li>a {
+  padding-right: 1rem;
+  padding-left: 1rem;
+  margin-right: 0.1rem;
+  line-height: 1rem;
+}
+
+.nav-tabs {
+  border-bottom: 1px solid #3F89C8;
+  margin-top: 30px;
+}
+
+.nav-tabs>li {
+  margin-bottom: -1px;
+}
+
+.nav-tabs>li>a {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  line-height: 1.25rem;
+  border: 1px solid transparent;
+}
+
+.nav-tabs>li>a:hover,
+.nav-tabs>li>a:focus {
+  border-color: #ddd #ddd #3F89C8;
+}
+
+.nav-tabs>.active>a,
+.nav-tabs>.active>a:hover,
+.nav-tabs>.active>a:focus {
+  cursor: default;
+  border: 1px solid #3F89C8;
+  border-bottom-color: transparent;
+  color: #fff;
+  background: #3F89C8;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  text-align: center;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+.tab-content.hide {
+  display: none;
+}
+
+.tabDiv {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.bondCal {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.bondCal form {
+  margin: 30px 0px 60px;
+}
+
+.bondCal label {
+  float: left;
+  width: 250px;
+  margin-bottom: 10px;
+}
+
+.bondCal input {
+  float: left;
+  width: 250px;
+  margin-bottom: 10px;
+}
+
+.bondCal button {
+  color: #fff;
+  background: #3F89C8;
+  border-radius: 5px;
+  text-align: center;
+  display: block;
+  padding: 10px 30px;
+  width: 200px;
+  margin-left: 250px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.aif {
+  background: #E2E9F1;
+  padding: 50px 0px 20px;
+}
+
+.aif .col-lg-3 {
+  margin-bottom: 30px;
+}
+
+.aif h2 {
+  margin-bottom: 30px;
+}
+
+.aifcat2 {
+  background: #F8F8F8;
+  padding: 50px 0px 20px;
+}
+
+.aifcat2 h2 {
+  margin-bottom: 30px;
+}
+
+.aifcat2 .col-lg-3 {
+  margin-bottom: 30px;
+}
+
+.calCulatBtn {
+  margin-left: 268px;
+  margin-top: 20px;
+}
+
+.calCulatBtn input[type="submit"] {
+  color: #fff;
+  background: #3F89C8;
+  border-radius: 5px;
+  text-align: center;
+  display: block;
+  padding: 7px 25px;
+}
+
+.npsWrp .ourPartCaptital {
+  margin: 50px 0px 20px;
+}
+
+.npsWrp .ourPartCaptital .col-lg-4 {
+  margin-bottom: 30px;
+}
+
+.nps {
+  background: #E2E9F1;
+  padding: 50px 0px 20px;
+  margin-top: 50px;
+}
+
+.npsWrp .ourPartnerWrp .col-lg-6 {
+  margin-top: 20px;
+}
+
+.mutChil {
+  margin-bottom: 30px;
+  float: left;
+}
+
+.mutChil h2 {
+  text-align: left;
+  margin-top: 50px;
+}
+
+.mutChil p {
+  text-align: left;
+}
+
+.mutChilBtn {
+  float: left;
+  width: 200px;
+}
+
+.mutChilBtn a {
+  color: #fff;
+  background: #3F89C8;
+  border-radius: 5px;
+  text-align: center;
+  display: block;
+  padding: 10px;
+}
+
+
+/*partners */
+
+.partNew {
+  margin-bottom: 50px;
+}
+
+.formKnow {
+  border: 1px solid #0BA4A6;
+  border-radius: 5px;
+  padding: 5%;
+}
+
+.formKnow input[type="text"] {
+  border: 1px solid #0BA4A6;
+  border-radius: 5px;
+  margin: 15px 0px;
+}
+
+.formKnow input[type="email"] {
+  border: 1px solid #0BA4A6;
+  border-radius: 5px;
+  margin: 15px 0px;
+}
+
+.formKnow button {
+  color: #fff;
+  background: #3F89C8;
+  border-radius: 5px;
+  text-align: center;
+  display: block;
+  padding: 10px;
+  width: 230px;
+  margin: 20px auto;
+}
+
+.formKnow h3 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  color: #243B71;
+  text-align: left;
+}
+
+.radioKonw {
+  border: 1px solid #0BA4A6;
+  border-radius: 5px;
+  margin: 15px 0px;
+  padding: 2%;
+}
+
+.partNewSign {
+  margin-top: 50px;
+}
+
+.partNewSign .imgFeatures {
+  background: #F8F8F8;
+  padding: 60px 20px;
+  margin-bottom: 30px;
+  float: left;
+}
+
+.partNewSign .imgFeatures h4 {
+  margin-top: 20px;
+}
+
+.imgFeatures .imgFeaturesLft {
+  width: 100px;
+  float: left;
+}
+
+.imgFeatures .imgFeaturesRgt {
+  width: 300px;
+  float: right;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 32px;
+  color: #000000;
+}
+
+.imgFeatures .imgFeaturesRgt p {
+  margin-top: 30px;
+}
+
+.imgFeatures .imgFeaturesLft img {
+  max-width: 100%;
+}
+
+.accesPrd .imgFeatures {
+  background: #fff !important;
+}
+
+.accesPrd .imgFeatures img {
+  width: 130px;
+}
+
+.accesPrd .imgFeatures h4 {
+  background: #FFFFFF;
+  border: 1px solid #3F89C8;
+  box-sizing: border-box;
+  height: 40px;
+  margin-top: 30px;
+  padding: 7px 0px;
+}
+
+.beMutFund h2 {
+  margin-top: 0px;
+}
+
+.mutChil ul {}
+
+.mutChil ul li {
+  text-align: left;
+  list-style: disc;
+  margin-bottom: 10px;
+}
+
+.beMutFund ul li {
+  text-align: left;
+  list-style: disc;
+  margin-bottom: 10px;
+}
+
+input#search-input {
+  width: 316px;
+}
+
+.calculatorType {
+  border-top: 1px solid #0BA4A6;
+  padding: 10px 5%;
+}
+
+.calculatorType:hover {
+  background: #243B71;
+  color: #fff;
+}
+
+.calCulate {
+  padding: 0% !important;
+}
+
+.calCulate h3 {
+  padding: 5%;
+}
+
+.calCulate h4 {
+  border-top: 1px solid #0BA4A6;
+  padding: 10px 5%;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  color: #243B71;
+  text-align: left;
+}
+
+.getCustomer .col-lg-12 h3 {
+  padding-top: 50px;
+  color: #fff !important;
+  text-align: center;
+}
+
+.getCustomer .col-lg-12 .ctaBtnOur {
+  padding-bottom: 50px;
+}
+
+.calSearch {
+  margin-bottom: 30px;
+  margin-top: 67px;
+}
+
+.midFundSec {
+  padding: 50px 0px;
+}
+
+.whyInvest {
+  background: #E2E9F1;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  float: left;
+  width: 100%;
+  padding: 1% 0%;
+}
+
+.whyInvest ul li {
+  list-style: disc;
+  margin-left: 4%;
+}
+
+.whyInvest h2 {
+  padding: 1%;
+}
+
+.featursMidCap {
+  margin-top: 50px;
+}
+
+.featureMidCapDiv {
+  background: #E2E9F1;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  padding: 5%;
+  margin-bottom: 50px;
+}
+
+.iconMidCap {
+  float: left;
+  width: 7%;
+}
+
+.cntMidCap {
+  float: right;
+  width: 92%;
+}
+
+.cntMidCap h3 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  color: #1E2A5E;
+}
+

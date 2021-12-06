@@ -37,13 +37,17 @@ export class BLT extends Component {
          <div class="container">
             <div class="row">
                <h2> Build Long Term Wealth</h2>
-               <p>Nulla vel nisl blandit nunc scelerisque consectetur id vitae nisi. In augue lectus, gravida a viverra et, imperdiet nec leo. Nulla vel nisl blandit nunc scelerisque consectetur id vitae nisi. In augue lectus, gravida a viverra et, imperdiet nec leo. Quisque feugiat eros sed Nam in aliquet mi. Duis tempus ante turpis, et congue<br/>
+               <p>Saving regularly and investing prudently in a disciplined way is the key to Long Term Wealth Creation! There is no short cut.<br/><br/>
+
+We all know that any money in our pocket gets spent immediately. You always have a feeling of running short of cash. Then how do you build wealth?<br/><br/>
+
+Answer is simple – save first and then spend.<br/><br/>
+
+Mutual Funds have evolved an extremely good option to build long term wealth in through systematic investment plans (SIP).<br/><br/>
+
+We recommend you to start systematic investment plans (SIPs) of top-performing equity / balanced / debt mutual funds to build wealth. A fixed amount of money gets debited to your bank account automatically every month creating forced saving for you. In a few months, you will see your money pot-growing and then you will start enjoying the process!.
                </p>
-               <ol>
-                  <li>Nam in aliquet mi. Duis tempus ante turpis, et congue ante consequat ac. Mauris in ornare diam, nec pellentesque elit. Aenean dignissim, velit at tristique </li>
-                  <li>Nam in aliquet mi. Duis tempus ante turpis, et congue ante consequat ac. Mauris in ornare diam, nec pellentesque elit. Aenean dignissim, velit at tristique </li>
-                  <li>Nam in aliquet mi. Duis tempus ante turpis, et congue ante consequat ac. Mauris in ornare diam, nec pellentesque elit. Aenean dignissim, velit at tristique </li>
-               </ol>
+               
             </div>
          </div>
       </div>
@@ -58,8 +62,8 @@ export class BLT extends Component {
       
       <div class="getCustomer">
          <div class="container ourPartnerWrp">
+         <h2>Investing through SIPs has many advantages</h2>
             <div class="row">
-               <h2>Investing through SIPs has many advantages</h2>
                <div class="col-lg-4">
                   <div class="ourPartner">
                      <h4>Leveraging Power</h4>
@@ -87,8 +91,8 @@ export class BLT extends Component {
                      </p>
                   </div>
                </div>
-               <div class="ctaBtnOur"><a href="#">INVEST NOW</a></div>
             </div>
+            <div class="ctaBtnOur"><a href="#">INVEST NOW</a></div>
          </div>
       </div>
       
@@ -122,160 +126,38 @@ export class BLT extends Component {
          </div>
       </div>
       
-      <div class="getCustomer">
-         <div class="container">
-           <div class="row">
-               <div class="col-lg-3">
-                  <div class="customerDiv">
-                     <p>11,000<br/>CUSTOMERS</p>
-                  </div>
-               </div>
-               <div class="col-lg-3">
-                  <div class="customerDiv">
-                     <p>1000+<br/>PARTENERS</p>
-                  </div>
-               </div>
-               <div class="col-lg-3">
-                  <div class="customerDiv">
-                     <p>400,000+<br/>TRANSACTIONS EXECUTED</p>
-                  </div>
-               </div>
-               <div class="col-lg-3">
-                  <div class="customerDiv">
-                     <p>1,000+<br/>TOTAL TRANSACTION VALUE</p>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
+      <div id="about-stats">
+              <div className="container container-wrapper">
+                <div className="row align-items-center">
+                   <div className="col-lg-3 col-md-6 col-12">
+                     <div className="card-box">
+                       <h3> 11,000+</h3>
+                       <h4>CUSTOMERS</h4>
+                     </div>
+                   </div>
+                   <div className="col-lg-3 col-md-6 col-12">
+                     <div className="card-box">
+                     <h3> 1,000+</h3>
+                       <h4>PARTNERS</h4>
+                     </div>
+                   </div>
+                   <div className="col-lg-3 col-md-6 col-12">
+                     <div className="card-box">
+                       <h3>400,000+</h3>
+                       <h4>TRANSACTIONS EXECUTED</h4>
+                     </div>
+                   </div>
+                   <div className="col-lg-3 col-md-6 col-12">
+                     <div className="card-box">
+                       <h3>1,000 Cr+</h3>
+                       <h4>TOTAL TRANSACTION VALUE</h4>
+                     </div>
+                   </div>
+                </div>
+              </div>
+          </div>
     
-      <div class="container testimonials">
-         <div class="row">
-            <div class="col-lg-12">
-               <h2>Customer Reviews</h2>
-            </div>
-            <div class="col-lg-2">
-               <div class="imgFeatures">
-                  <img src={timg} />
-                  <h4>Nam in aliquet</h4>
-                  <p>Nemo enim ipsam voluptatem 
-                     quia voluptas sit aspernatur
-                     aut odit aut fugit, sed quia.
-                  </p>
-               </div>
-            </div>
-            <div class="col-lg-2">
-               <div class="imgFeatures">
-                  <img src={timg} />
-                  <h4>Nam in aliquet</h4>
-                  <p>Nemo enim ipsam voluptatem 
-                     quia voluptas sit aspernatur
-                     aut odit aut fugit, sed quia.
-                  </p>
-               </div>
-            </div>
-            <div class="col-lg-2">
-               <div class="imgFeatures">
-                  <img src={timg} />
-                  <h4>Nam in aliquet</h4>
-                  <p>Nemo enim ipsam voluptatem 
-                     quia voluptas sit aspernatur
-                     aut odit aut fugit, sed quia.
-                  </p>
-               </div>
-            </div>
-            <div class="col-lg-2">
-               <div class="imgFeatures">
-                  <img src={timg} />
-                  <h4>Nam in aliquet</h4>
-                  <p>Nemo enim ipsam voluptatem 
-                     quia voluptas sit aspernatur
-                     aut odit aut fugit, sed quia.
-                  </p>
-               </div>
-            </div>
-            <div class="col-lg-2">
-               <div class="imgFeatures">
-                  <img src={timg} />
-                  <h4>Nam in aliquet</h4>
-                  <p>Nemo enim ipsam voluptatem 
-                     quia voluptas sit aspernatur
-                     aut odit aut fugit, sed quia.
-                  </p>
-               </div>
-            </div>
-            <div class="col-lg-2">
-               <div class="imgFeatures">
-                  <img src={timg} />
-                  <h4>Nam in aliquet</h4>
-                  <p>Nemo enim ipsam voluptatem 
-                     quia voluptas sit aspernatur
-                     aut odit aut fugit, sed quia.
-                  </p>
-               </div>
-            </div>
-            <div class="col-lg-2">
-               <div class="imgFeatures">
-                  <img src={timg} />
-                  <h4>Nam in aliquet</h4>
-                  <p>Nemo enim ipsam voluptatem 
-                     quia voluptas sit aspernatur
-                     aut odit aut fugit, sed quia.
-                  </p>
-               </div>
-            </div>
-            <div class="col-lg-2">
-               <div class="imgFeatures">
-                  <img src={timg} />
-                  <h4>Nam in aliquet</h4>
-                  <p>Nemo enim ipsam voluptatem 
-                     quia voluptas sit aspernatur
-                     aut odit aut fugit, sed quia.
-                  </p>
-               </div>
-            </div>
-            <div class="col-lg-2">
-               <div class="imgFeatures">
-                  <img src={timg} />
-                  <h4>Nam in aliquet</h4>
-                  <p>Nemo enim ipsam voluptatem 
-                     quia voluptas sit aspernatur
-                     aut odit aut fugit, sed quia.
-                  </p>
-               </div>
-            </div>
-            <div class="col-lg-2">
-               <div class="imgFeatures">
-                  <img src={timg} />
-                  <h4>Nam in aliquet</h4>
-                  <p>Nemo enim ipsam voluptatem 
-                     quia voluptas sit aspernatur
-                     aut odit aut fugit, sed quia.
-                  </p>
-               </div>
-            </div>
-            <div class="col-lg-2">
-               <div class="imgFeatures">
-                  <img src={timg} />
-                  <h4>Nam in aliquet</h4>
-                  <p>Nemo enim ipsam voluptatem 
-                     quia voluptas sit aspernatur
-                     aut odit aut fugit, sed quia.
-                  </p>
-               </div>
-            </div>
-            <div class="col-lg-2">
-               <div class="imgFeatures">
-                  <img src={timg} />
-                  <h4>Nam in aliquet</h4>
-                  <p>Nemo enim ipsam voluptatem 
-                     quia voluptas sit aspernatur
-                     aut odit aut fugit, sed quia.
-                  </p>
-               </div>
-            </div>
-         </div>
-      </div>
+      
       
       <div class="container testimonials">
          <div class="row">
@@ -309,15 +191,19 @@ export class BLT extends Component {
                   </div>
                   <h3>4. How to Invest in Mutual funds on Nivesh ?</h3>
                   <div>  
+                     <p>
                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean varius 
                      cursus. Fusce eu porttitor orci, vel interdum urna. Donec lorem arcu, 
                      vitae lectus. Vestibulum libero tellus, facilisis id turpis vel, pharetra imperdiet ante. ,
+                     </p>
                   </div>
                   <h3>5. How are returns earned in mutual funds?</h3>
                   <div>  
+                     <p>
                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean varius 
                      cursus. Fusce eu porttitor orci, vel interdum urna. Donec lorem arcu, 
                      vitae lectus. Vestibulum libero tellus, facilisis id turpis vel, pharetra imperdiet ante. ,
+                     </p>
                   </div>
                </div>
             </div>

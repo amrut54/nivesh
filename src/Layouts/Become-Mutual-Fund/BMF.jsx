@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import '../../style.css'
 
 export class BMF extends Component {
           render() {
@@ -126,21 +127,25 @@ export class BMF extends Component {
          <div class="container ourPartnerWrp">
             <div class="row">
                <div class="col-lg-6">
-                  <div class="ourPartner">
-                     <h4>Learn to Provide the Right Mutual Fund Schemes to your Customers</h4>
+                  <div class="card">
+                     <div className="card-body">
+                     <h3>Learn to Provide the Right Mutual Fund Schemes to your Customers</h3>
                      <p>In order to provide a right mutual fund scheme to the customer, there are these major factors to consider:<br/><br/>
                         The investment objective of the client – what is the financial goal for which the customer is planning to invest.<br/><br/>
                         The time horizon for which the investor is willing to keep his or her money invested in the scheme. It could be anywhere from a few months to many years.<br/><br/>Risk preference of the customer. Whether they are conservative or moderate risk takers.
                      </p>
-                     <div class="ctaBtn"><a href="#">Join Us </a></div>
+                     <a href="#" class="btn btn-primary">Join Us </a>
+                     </div>
                   </div>
                </div>
                <div class="col-lg-6">
-                  <div class="ourPartner">
-                     <h4>Learn How to Grow your Mutual Fund Business:</h4>
+               <div class="card">
+                     <div className="card-body">
+                     <h3>Learn How to Grow your Mutual Fund Business:</h3>
                      <p>The most important task is to grow your mutual fund distribution business. No business can survive without customers and hence you need to look at multiple options to get new customers:<br/><br/>Talk to potential customers in your circles like friends and relatives and inform them about your new business<br/><br/>Use Social Media to promote your business<br/><br/>Share knowledge with others<br/><br/>Conduct Webinars and online meetings to talk about the benefits of investing  through Mutual Funds
                      </p>
-                     <div class="ctaBtn"><a href="#">Grow Your MF Business </a></div>
+                     <a href="#" class="btn btn-primary">Grow Your MF Business </a>
+                     </div>
                   </div>
                </div>
             </div>
@@ -202,16 +207,20 @@ export class BMF extends Component {
                      </p>
                   </div>
                   <h3>4. How to Invest in Mutual funds on Nivesh ?</h3>
-                  <div>  
+                  <div>
+                     <p> 
                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean varius 
                      cursus. Fusce eu porttitor orci, vel interdum urna. Donec lorem arcu, 
                      vitae lectus. Vestibulum libero tellus, facilisis id turpis vel, pharetra imperdiet ante. ,
+                     </p>
                   </div>
                   <h3>5. How are returns earned in mutual funds?</h3>
-                  <div>  
+                  <div>
+                     <p>  
                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean varius 
                      cursus. Fusce eu porttitor orci, vel interdum urna. Donec lorem arcu, 
                      vitae lectus. Vestibulum libero tellus, facilisis id turpis vel, pharetra imperdiet ante. ,
+                     </p>
                   </div>
                </div>
             </div>

@@ -3,8 +3,8 @@ import React, { Component } from 'react'
 
 export class api extends Component {
 
-    constructor(props) {
-        super(props)
+    constructor() {
+        super()
     
         this.state = {
            items: [],
@@ -48,7 +48,7 @@ export class api extends Component {
         if (!isLoaded) return <div>
             <h1> Pleses wait some time.... </h1> </div> ;
         return (
-            <div>
+            <div className="api">
                 {items.map((item) => ( 
                 <ul key = { item.ObejectResponse.SchemeDataList } >
                     <li>
