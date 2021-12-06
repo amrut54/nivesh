@@ -91,32 +91,36 @@ export class SFC extends Component {
          </div>
       </div>
      
-      <div class="getCustomer">
-         <div class="container">
-            <div class="row">
-               <div class="col-lg-3">
-                  <div class="customerDiv">
-                     <p>11,000<br/>CUSTOMERS</p>
-                  </div>
-               </div>
-               <div class="col-lg-3">
-                  <div class="customerDiv">
-                     <p>1000+<br/>PARTENERS</p>
-                  </div>
-               </div>
-               <div class="col-lg-3">
-                  <div class="customerDiv">
-                     <p>400,000+<br/>TRANSACTIONS EXECUTED</p>
-                  </div>
-               </div>
-               <div class="col-lg-3">
-                  <div class="customerDiv">
-                     <p>1,000+<br/>TOTAL TRANSACTION VALUE</p>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
+      <div id="about-stats">
+              <div className="container container-wrapper">
+                <div className="row align-items-center">
+                   <div className="col-lg-3 col-md-6 col-12">
+                     <div className="card-box">
+                       <h3> 11,000+</h3>
+                       <h4>CUSTOMERS</h4>
+                     </div>
+                   </div>
+                   <div className="col-lg-3 col-md-6 col-12">
+                     <div className="card-box">
+                     <h3> 1,000+</h3>
+                       <h4>PARTNERS</h4>
+                     </div>
+                   </div>
+                   <div className="col-lg-3 col-md-6 col-12">
+                     <div className="card-box">
+                       <h3>400,000+</h3>
+                       <h4>TRANSACTIONS EXECUTED</h4>
+                     </div>
+                   </div>
+                   <div className="col-lg-3 col-md-6 col-12">
+                     <div className="card-box">
+                       <h3>1,000 Cr+</h3>
+                       <h4>TOTAL TRANSACTION VALUE</h4>
+                     </div>
+                   </div>
+                </div>
+              </div>
+          </div>
     
 
       
@@ -151,16 +155,20 @@ export class SFC extends Component {
                      </p>
                   </div>
                   <h3>4. How to Invest in Mutual funds on Nivesh ?</h3>
-                  <div>  
+                  <div>
+                     <p>  
                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean varius 
                      cursus. Fusce eu porttitor orci, vel interdum urna. Donec lorem arcu, 
                      vitae lectus. Vestibulum libero tellus, facilisis id turpis vel, pharetra imperdiet ante. ,
+                     </p>
                   </div>
                   <h3>5. How are returns earned in mutual funds?</h3>
-                  <div>  
+                  <div> 
+                     <p> 
                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean varius 
                      cursus. Fusce eu porttitor orci, vel interdum urna. Donec lorem arcu, 
                      vitae lectus. Vestibulum libero tellus, facilisis id turpis vel, pharetra imperdiet ante. ,
+                     </p>
                   </div>
                </div>
             </div>

@@ -12,6 +12,7 @@ import BMF from "./Layouts/Become-Mutual-Fund/BMF"
 import CB from "./Layouts/Corporate-Bond/CB"
 import AIF from  "./Layouts/AIF/AIF"
 import NPS from "./Layouts/NPS/NPS"
+import Contact from "./Layouts/ContactUs/contactus"
 class App extends React.Component {
 
   render() {
@@ -20,6 +21,7 @@ class App extends React.Component {
         <Route exact path="/" component={Home} />
         <Route exact path="/other" component={Home} />
         <Route exact path="/aboutus" component={AboutUs} />
+        <Route exact path="/contactus" component={Contact} />
         <Route exact path="/arn" component={ARN} />
         <Route exact path="/retirement" component={Retirement} />
         <Route exact path="/building-long-terms" component={BLT} />

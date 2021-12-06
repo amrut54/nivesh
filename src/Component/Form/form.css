@@ -1,0 +1,41 @@
+.form-control, .radioKonw{
+    padding:10px !important;
+	font-family:'Montserrat' !important;
+	font-size:20px !important;
+   color: #A1A1A1 !important;
+	border: 1px solid #61D68E !important;
+}
+
+.formKnow{
+	padding: 30px;
+	border: 1px solid #61D68E !important;
+}
+
+.formKnow h3{
+	font-size: 18px;
+	text-align: center;
+	color: #243B71;
+
+}
+
+.form-check{
+	padding-left: 0px;
+	margin-top: 20px;
+
+}
+.form-check-label{
+
+	font-family:'Montserrat' !important;
+	font-size: 18px;
+	font-weight: 400;
+	margin-left: 20px;
+
+
+}
+
+.form-check1-label{
+	font-size: 16px;
+	font-weight: 400;
+	margin-left: 20px;
+	font-family:'Montserrat' !important;
+}

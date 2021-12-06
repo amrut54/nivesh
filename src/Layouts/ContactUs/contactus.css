@@ -46,11 +46,6 @@
   .conatactform> input[type=text]{
      width:100%;
   }
-  
-
-  .form_email1, .form_phone1{
-      width:50% !important;
-  }
 
 
 .form_message{

@@ -35,12 +35,28 @@ h2{
    color: #000000;
   }
 
+  h6{
+    font-family: "Montserrat", Sans-serif;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 30px;
+   /* identical to box height, or 107% */
+   text-transform: capitalize;
+   color: #000000;
+
+  }
+
   p{
     font-family: "Montserrat", sans-serif;
     font-size:18px;
     font-weight: 400;
     line-height: 36px;
     text-align: left;
+  }
+
+  p.txt-white{
+    color:white;
   }
 
   .btn-primary{
@@ -55,7 +71,7 @@ h2{
     padding: 0px;
     font-size: 18px;
     line-height: 36px;
-    color: white;
+    
     font-weight: 400;
     font-family: 'Montserrat', sans-serif;
   }
@@ -67,18 +83,14 @@ h2{
     line-height: 36px;
   }
 
+.col-lg-6 .card{
+    height:730px;
+  }
+
 
 /** Main Banner **/
 .main-box h2{
   text-align: left;
-}
-
-.main-box p{
-  text-align: left;
-  font-size: 24px;
-  line-height: 45px;
-  font-weight: 500;
-
 }
 
 .main-box-right img{

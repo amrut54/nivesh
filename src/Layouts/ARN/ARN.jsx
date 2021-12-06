@@ -1,6 +1,7 @@
 import React from 'react';
 import './ARN.css';
 import logo from '../Home/images/happy-smiley-family-front-view 1.png';
+import Form from '../../Component/Form/form.jsx';
 
 export class ARN extends React.Component{
           render(){
@@ -9,7 +10,7 @@ export class ARN extends React.Component{
                           <div id="ARN-Banner">
                               <div className="container container-wrapper">
                                    <div className="row">
-                                        <div className="col-lg-6 col-md-6 ARN-box">
+                                        <div className="col-lg-8 col-md-6 col-12 ARN-box">
                                              <h2>All About AMFI Registration Number (ARN)</h2>
                                               <p>The mutual fund distributors who are qualified and having the AMFI Registration Number (ARN) are only eligible to sell the mutual funds. To become an ARN Holder, it is necessary to qualify for the NISM Series V-A: Mutual Fund Distributors Certification Examination.<br/><br/>
 
@@ -22,34 +23,8 @@ export class ARN extends React.Component{
 
                                                 Check the renewal of the ARN section to know more about the same.</p>
                                         </div>
-                                                                   <div className="col-lg-6 col-md-6 main-box-right">
-                                                                      
-                                                                   <div class="contactme" id="contact">
-              <div class="formWord">
-                <div class="form-1">
-                    <form >
-                            <input class="form_name" type="text" name="fullName" required placeholder="Enter Full Name As Per PAN " />
-                            <input  class="form_email" type="email" name="phone" required placeholder="Enter Email ID" />
-                            <input class="form_phone" type="tel" name="email" required placeholder="Enter Mobile Number" />
 
-                            <div className="form-group">
-                            <div class="form-check">
-                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked />
-                            <label class="form-check-label" for="exampleRadios1">
-                                 Default radio
-                            </label>
-                            </div>
-
-                            </div>
-                            <button>Submit</button>
-                            <input type="checkbox" name="acceptance" id="acceptance" class="accept-chkbox"></input>
-                            <label for="form-checkbox"> I agree to the Terms & Conditions</label>
-
-                    </form>
-                </div>
-                </div>
-        </div>
-                                                                      </div>
+                                        <Form />
 
                                                              </div>
 
@@ -60,8 +35,8 @@ export class ARN extends React.Component{
                                          <div id="arncode-section">
                                                    <div className="container container-wrapper">
                                                              <div className="row ">
-                                                                       <h2 className="text-center">Why is the ARN Code Required?</h2>
-                                                                       <p>Through the process of allotting ARN, SEBI and AMFI want to ensure that the distributors follow the highest standards of ethics and have the required knowledge to provide the right mutual funds to their customers.<br/>
+                                                                       <h2>Why is the ARN Code Required?</h2>
+                                                                       <p className="txt-white">Through the process of allotting ARN, SEBI and AMFI want to ensure that the distributors follow the highest standards of ethics and have the required knowledge to provide the right mutual funds to their customers.<br/>
 
                                                                        Whenever it comes to mutual fund investment, one very common line revolves in our head as “Mutual Funds Are Subjected to Market Risk.”  However, the risk can easily be reduced by more diligence. Mutual fund distributors are expected to help the customers manage the risk with their knowledge.<br/>
 
@@ -77,9 +52,10 @@ export class ARN extends React.Component{
 
                                          <div id="arn-number">
                                                    <div className="container container-wrapper">
-                                                             <div className="row">
-                                                                       <h2>How To Get ARN Number?</h2>
+                                                   <h2 className="arn-nhead">How To Get ARN Number?</h2>
                                                                        <h6>Once you have cleared the NISM -VA exam for becoming a mutual fund agent and have received the certificate, you can apply for ARN via offline and online mode. AMFI has authorized CAMS for completing the registration of the mutual fund distributor and issuing the ARN code.</h6>
+                                                             <div className="row">
+                                                                      
                                                                  <div className="col-lg-6 col-md-6 col-12">
                                                                       <div className="card">
                                                                          <div className="card-body">
@@ -144,7 +120,7 @@ export class ARN extends React.Component{
                                                                 </table>
 
                                                                 <div className="col-lg-6 col-md-6 col-12">
-                                                                      <div className="card">
+                                                                      <div className="card mb-4">
                                                                          <div className="card-body">
                                                                             <h3>AMFI ARN Registration - Offline Mode​</h3>
                                                                             <p>ARN is one of the most important codes for both the investor and the mutual fund distributor.<br/><br/>
@@ -158,7 +134,7 @@ export class ARN extends React.Component{
                                                                       </div>
                                                                  </div>
                                                                  <div className="col-lg-6 col-md-6 col-12">
-                                                                      <div className="card">
+                                                                      <div className="card mb-4">
                                                                          <div className="card-body">
                                                                             <h3>AMFI ARN Registration Process - Online Mode</h3>
                                                                             <p>The ARN Number is valid for three years. To renew your ARN number, first, you need to book CPE/ECPE training (If ARN validity is about to expire) or NISM Certifications Exam (If ARN validity has expired).<br/><br/>
@@ -228,6 +204,7 @@ export class ARN extends React.Component{
 
                                         <div className="container container-wrapper">
                                                             <div className="row">
+                                                              <div className="col-lg-12 col-12">
                                                                       <h2>Difference Between CPE & E CPE</h2>
                                                                       <table class="table custom-table">
                                                                   <thead class="thead-blue">
@@ -246,7 +223,7 @@ export class ARN extends React.Component{
                                                                     
                                                                   </tbody>
                                                                 </table>
-
+                                                               </div>
                                                             </div>
 
                                                   </div>
