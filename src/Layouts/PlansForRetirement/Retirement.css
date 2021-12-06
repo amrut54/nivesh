@@ -4,3 +4,11 @@
 .custom-table>tbody>tr>td ul{
           color: black;
 }
+
+#arncode-section li{
+    color: white;
+}
+
+#Retirement-schemeSection, .btn-primary{
+    text-align: center;
+}

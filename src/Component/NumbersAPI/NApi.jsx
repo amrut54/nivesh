@@ -15,10 +15,10 @@ export class NApi extends Component {
                 },
                 data: {
                     TotalClient: "22807",
-        TotalPartner: "2348",
-        TotalPartnerOverCities: "490",
-        NoOfTransaction: "839627",
-        TotalTransactionValue: "13736189855.0000"
+                    TotalPartner: "2348",
+                    TotalPartnerOverCities: "490",
+                    NoOfTransaction: "839627",
+                    TotalTransactionValue: "13736189855.0000"
                 }
             })
             .then(res => this.setState({ recipes: res.data }));

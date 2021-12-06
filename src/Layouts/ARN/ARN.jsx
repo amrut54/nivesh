@@ -88,7 +88,7 @@ export class ARN extends React.Component{
                                                                                                 <li>Must note that the fees will differ according to the corporates and other entities!! You can check the given link.</li>
 
                                                                                       </ul></p>
-                                                                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                                            <a href="#" class="btn btn-primary">Register Now</a>
                                                                            </div>
                                                                       </div>
                                                                  </div>
@@ -142,7 +142,7 @@ export class ARN extends React.Component{
                                                                             For ARN Renewal, the Individuals, senior citizens, and employees are required to submit the application for renewal of ARN/ EUIN along with a copy of the passing certificate of NISM Mutual Fund Distributors Certification Examination/ CPE Certificate and two stamp size colour photographs.<br/><br/>
 
                                                                             Without the legitimate documents, the ARN renewal process will not get completed.</p>
-                                                                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                                            <a href="#" class="btn btn-primary">Join Now</a>
                                                                            </div>
                                                                       </div>
                                                                  </div>

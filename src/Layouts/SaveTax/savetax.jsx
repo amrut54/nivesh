@@ -35,9 +35,9 @@ export class savetax extends Component {
          <div class="container">
             <div class="row">
                <h2>Money saved is money earned!</h2>
-               <p>Isn’t this a great ground to save as much tax as you can?</p>
-               <p>While there are numerous ways you can save your tax including the traditional instruments like Public Provident Fund (PPF) and National Savings Certificate (NSC), it is the investment in Equity-Linked Savings Schemes (ELSS) offered by mutual funds that promise tax saving along with attractive returns.</p>
-               <p>ELSS funds are tax saving schemes that invest in a diversified portfolio of stocks with a lock-in period of 3 years.</p>
+               <p>Isn’t this a great ground to save as much tax as you can?<br/><br/>
+               While there are numerous ways you can save your tax including the traditional instruments like Public Provident Fund (PPF) and National Savings Certificate (NSC), it is the investment in Equity-Linked Savings Schemes (ELSS) offered by mutual funds that promise tax saving along with attractive returns.<br/><br/>
+               ELSS funds are tax saving schemes that invest in a diversified portfolio of stocks with a lock-in period of 3 years.</p>
             </div>
          </div>
       </div>
@@ -62,7 +62,38 @@ export class savetax extends Component {
                </div>
                 <div class="mutChil">
                   <h2> Here’s why ELSS is a better choice than traditional tax-saving instruments</h2>
-                  <img src="assets/images/schemes.jpg" />
+                  <table class="table custom-table">
+                      <thead class="thead-blue">
+                        <tr>
+                          <th scope="col">Schemes</th>
+                          <th scope="col">Lock-in Period </th>
+                          <th scope="col">Returns</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row">PPF</th>
+                          <td>15 years</td>
+                          <td>~8%</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">NSC</th>
+                          <td>6 years</td>
+                          <td>~8%</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Tax Saving Fixed Deposits</th>
+                          <td>5 years</td>
+                          <td>~8%</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Equity Linked Savings Scheme (ELSS) – Tax Saving Mutual Funds</th>
+                          <td>3 years</td>
+                          <td>~12-14% and even higher (not guaranteed as it is subject to market volatility)</td>
+                        </tr>
+                        
+                      </tbody>
+                     </table>
                   <p>The icing on the cake is that capital gains earned through ELSS funds are subject to lower taxes (10% long term capital gains tax on gains over Rs. one lakh), which makes them not just the better tax saving option but also the preferred saving choice.</p>
                </div>
                <div class="clearDiv"></div>
@@ -102,32 +133,38 @@ export class savetax extends Component {
          </div>
       </div>
 
-      <div class="getCustomer">
-         <div class="container">
-           <div class="row">
-               <div class="col-lg-3">
-                  <div class="customerDiv">
-                     <p>11,000<br/>CUSTOMERS</p>
-                  </div>
-               </div>
-               <div class="col-lg-3">
-                  <div class="customerDiv">
-                     <p>1000+<br/>PARTENERS</p>
-                  </div>
-               </div>
-               <div class="col-lg-3">
-                  <div class="customerDiv">
-                     <p>400,000+<br/>TRANSACTIONS EXECUTED</p>
-                  </div>
-               </div>
-               <div class="col-lg-3">
-                  <div class="customerDiv">
-                     <p>1,000+<br/>TOTAL TRANSACTION VALUE</p>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
+      
+
+      <div id="about-stats">
+              <div className="container container-wrapper">
+                <div className="row align-items-center">
+                   <div className="col-lg-3 col-md-6 col-12">
+                     <div className="card-box">
+                       <h3> 11,000+</h3>
+                       <h4>CUSTOMERS</h4>
+                     </div>
+                   </div>
+                   <div className="col-lg-3 col-md-6 col-12">
+                     <div className="card-box">
+                     <h3> 1,000+</h3>
+                       <h4>PARTNERS</h4>
+                     </div>
+                   </div>
+                   <div className="col-lg-3 col-md-6 col-12">
+                     <div className="card-box">
+                       <h3>400,000+</h3>
+                       <h4>TRANSACTIONS EXECUTED</h4>
+                     </div>
+                   </div>
+                   <div className="col-lg-3 col-md-6 col-12">
+                     <div className="card-box">
+                       <h3>1,000 Cr+</h3>
+                       <h4>TOTAL TRANSACTION VALUE</h4>
+                     </div>
+                   </div>
+                </div>
+              </div>
+          </div>
 
 
       <div class="container testimonials">
@@ -161,16 +198,20 @@ export class savetax extends Component {
                      </p>
                   </div>
                   <h3>4. How to Invest in Mutual funds on Nivesh ?</h3>
-                  <div>  
+                  <div>
+                     <p>  
                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean varius 
                      cursus. Fusce eu porttitor orci, vel interdum urna. Donec lorem arcu, 
                      vitae lectus. Vestibulum libero tellus, facilisis id turpis vel, pharetra imperdiet ante. ,
+                     </p>
                   </div>
                   <h3>5. How are returns earned in mutual funds?</h3>
-                  <div>  
+                  <div>
+                     <p>  
                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean varius 
                      cursus. Fusce eu porttitor orci, vel interdum urna. Donec lorem arcu, 
                      vitae lectus. Vestibulum libero tellus, facilisis id turpis vel, pharetra imperdiet ante. ,
+                     </p>
                   </div>
                </div>
             </div>
