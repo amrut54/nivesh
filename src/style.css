@@ -212,6 +212,10 @@
   color: #000000;
 }
 
+.features p{
+  text-align: center;
+}
+
 .features .ctaBtn {
   width: 150px;
   margin: 20px auto;
@@ -232,6 +236,7 @@
   width: 150px;
   margin-right: auto;
   margin-left: auto;
+  margin-top: 32px;
 }
 
 .imgFeatures h4 {
@@ -242,17 +247,12 @@
   line-height: 25px;
   color: #000000;
   text-align: center;
-  height: 60px;
 }
 
 .imgFeatures p {
-  font-family: Work Sans;
   font-style: normal;
   font-weight: 300;
-  font-size: 15px;
-  line-height: 18px;
   text-align: center;
-  letter-spacing: -0.02em;
   color: rgba(0, 0, 0, 0.8);
 }
 
@@ -298,7 +298,7 @@
 }
 
 .calCulator {
-  background: #F8F8F8;
+  background:#E2E9F1;
   padding: 50px 0px 30px;
 }
 

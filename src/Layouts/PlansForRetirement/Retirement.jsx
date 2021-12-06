@@ -191,6 +191,8 @@ export class Retirement extends React.Component{
 
                                          </div>
 
+
+                                          <div id="Retirement-schemeSection">
                                          <div className="container container-wrapper">
                                                    <h2>Retirement Mutual Fund Schemes and Taxation</h2>
                                                    <div className="row">
@@ -222,8 +224,94 @@ export class Retirement extends React.Component{
 
 
                                                    </div>
+                                                   
+                                                   <button type="button" class="btn btn-primary btn-lg">Invest Now  </button>
 
                                          </div>
+                                         </div>
+
+            <div id="about-stats">
+              <div className="container container-wrapper">
+                <div className="row align-items-center">
+                   <div className="col-lg-3 col-md-6 col-12">
+                     <div className="card-box">
+                       <h3> 11,000+</h3>
+                       <h4>CUSTOMERS</h4>
+                     </div>
+                   </div>
+                   <div className="col-lg-3 col-md-6 col-12">
+                     <div className="card-box">
+                     <h3> 1,000+</h3>
+                       <h4>PARTNERS</h4>
+                     </div>
+                   </div>
+                   <div className="col-lg-3 col-md-6 col-12">
+                     <div className="card-box">
+                       <h3>400,000+</h3>
+                       <h4>TRANSACTIONS EXECUTED</h4>
+                     </div>
+                   </div>
+                   <div className="col-lg-3 col-md-6 col-12">
+                     <div className="card-box">
+                       <h3>1,000 Cr+</h3>
+                       <h4>TOTAL TRANSACTION VALUE</h4>
+                     </div>
+                   </div>
+                </div>
+              </div>
+          </div>
+
+          <div class="container testimonials">
+         <div class="row">
+            <div class="col-lg-12">
+               <h2>Frequently Asked Questions</h2>
+               <div id="accordion">
+                  <h3>1. What are mutual funds and how do they work?</h3>
+                  <div>
+                     <p>  
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean varius 
+                        cursus. Fusce eu porttitor orci, vel interdum urna. Donec lorem arcu, 
+                        vitae lectus. Vestibulum libero tellus, facilisis id turpis vel, pharetra imperdiet ante. ,
+                     </p>
+                  </div>
+                  <h3>2. How to invest mutual funds? 
+                  </h3>
+                  <div>
+                     <p>  
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean varius 
+                        cursus. Fusce eu porttitor orci, vel interdum urna. Donec lorem arcu, 
+                        vitae lectus. Vestibulum libero tellus, facilisis id turpis vel, pharetra imperdiet ante. ,
+                     </p>
+                  </div>
+                  <h3>3. How to choose a mutual fund that suits your financial objective?</h3>
+                  <div>
+                     <p>  
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean varius 
+                        cursus. Fusce eu porttitor orci, vel interdum urna. Donec lorem arcu, 
+                        vitae lectus. Vestibulum libero tellus, facilisis id turpis vel, pharetra imperdiet ante. ,
+                     </p>
+                  </div>
+                  <h3>4. How to Invest in Mutual funds on Nivesh ?</h3>
+                  <div>
+                     <p>  
+                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean varius 
+                     cursus. Fusce eu porttitor orci, vel interdum urna. Donec lorem arcu, 
+                     vitae lectus. Vestibulum libero tellus, facilisis id turpis vel, pharetra imperdiet ante. ,
+                     </p>
+                  </div>
+                  <h3>5. How are returns earned in mutual funds?</h3>
+                  <div>
+                     <p>  
+                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean varius 
+                     cursus. Fusce eu porttitor orci, vel interdum urna. Donec lorem arcu, 
+                     vitae lectus. Vestibulum libero tellus, facilisis id turpis vel, pharetra imperdiet ante. ,
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+      </div>
 
                               </section>
 

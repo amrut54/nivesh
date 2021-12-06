@@ -29,8 +29,6 @@ export class Home extends React.Component {
            <div className="container container-wrapper">
              <div className="row">
             <div className="col-md-6 main-box">
-
-             <NumbersAPI />
            
                     <h2>HEADLINE</h2>
                     <p>World-class wealth management using science, data and technology, leveraged by our experience, and human touch.</p>
@@ -158,6 +156,15 @@ export class Home extends React.Component {
                    </div>
                  </div>
                </div>
+            </div>
+
+
+            <div className="API-Section">
+              <div className="container container-wrapper">
+                <API />
+
+              </div>
+
             </div>
 
           <div id="map-section">
