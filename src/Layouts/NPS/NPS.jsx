@@ -3,7 +3,48 @@ import bltimg from '../Home/images/Rectangle 2143.png'
 import circle from "../Home/images/Ellipse 32.png"
 
 export class NPS extends Component {
+   constructor() {
+      super()
+  
+      this.state = {
+         items: [],
+         MainTitle:[],
+         isLoaded: false
+      }
+  }
+        
+  componentDidMount() {
+      const url = 'https://nivesh.com/webapi_ucc/API/getSchemeDataFromProduct';
+      const postBody = {
+           ProductCategoryId: 6,
+           ClientCode: "",
+           LanguageId: 1,
+           device: "" ,
+           AMCCode: "" ,
+           SebiCategoryId:"" ,
+           SebiSubCategoryId:"" ,
+           DefaultProductId: "1"
+      };
+      const requestMetadata = {
+          method: 'POST',
+          headers: {
+              'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(postBody)
+      };
+  
+      fetch(url, requestMetadata)
+      .then(response => response.json())
+       .then(data=> {
+          this.setState({isLoaded:true, items:data.ObjectResponse.SchemeDataList, MainTitle:data.ObjectResponse.TitleResponse});
+          });
+  }
+
+
           render() {
+            const { isLoaded, items, MainTitle } = this.state;
+            if (!isLoaded) return <div>
+                </div> ;
                     return (
                               <main>
                                          <div class="fairaAssets npsWrp"></div>
@@ -133,9 +174,9 @@ export class NPS extends Component {
    
       <div class="getCustomer">
          <div class="container ourPartnerWrp">
+         <h2>Investment Process</h2>
+         <p>Scelerisque nec in porttitor faucibus turpis cras mi.</p>
             <div class="row">
-               <h2>Investment Process</h2>
-               <p>Scelerisque nec in porttitor faucibus turpis cras mi.</p>
                <div class="col-lg-6">
                   <div class="ourPartner">
                      <h4>Online Mode</h4>
@@ -156,8 +197,9 @@ export class NPS extends Component {
                      <div class="ctaBtn"><a href="#">Read More</a></div>
                   </div>
                </div>
-               <div class="ctaBtnOur"><a href="#">CTA</a></div>
+               
             </div>
+            <div class="ctaBtnOur"><a href="#">CTA</a></div>
          </div>
       </div>
     
@@ -191,32 +233,36 @@ export class NPS extends Component {
          </div>
       </div>
      
-      <div class="getCustomer">
-         <div class="container">
-           <div class="row">
-               <div class="col-lg-3">
-                  <div class="customerDiv">
-                     <p>11,000<br/>CUSTOMERS</p>
-                  </div>
-               </div>
-               <div class="col-lg-3">
-                  <div class="customerDiv">
-                     <p>1000+<br/>PARTENERS</p>
-                  </div>
-               </div>
-               <div class="col-lg-3">
-                  <div class="customerDiv">
-                     <p>400,000+<br/>TRANSACTIONS EXECUTED</p>
-                  </div>
-               </div>
-               <div class="col-lg-3">
-                  <div class="customerDiv">
-                     <p>1,000+<br/>TOTAL TRANSACTION VALUE</p>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
+      <div id="about-stats">
+              <div className="container container-wrapper">
+                <div className="row align-items-center">
+                   <div className="col-lg-3 col-md-6 col-12">
+                     <div className="card-box">
+                       <h3> 11,000+</h3>
+                       <h4>CUSTOMERS</h4>
+                     </div>
+                   </div>
+                   <div className="col-lg-3 col-md-6 col-12">
+                     <div className="card-box">
+                     <h3> 1,000+</h3>
+                       <h4>PARTNERS</h4>
+                     </div>
+                   </div>
+                   <div className="col-lg-3 col-md-6 col-12">
+                     <div className="card-box">
+                       <h3>400,000+</h3>
+                       <h4>TRANSACTIONS EXECUTED</h4>
+                     </div>
+                   </div>
+                   <div className="col-lg-3 col-md-6 col-12">
+                     <div className="card-box">
+                       <h3>1,000 Cr+</h3>
+                       <h4>TOTAL TRANSACTION VALUE</h4>
+                     </div>
+                   </div>
+                </div>
+              </div>
+          </div>
       
       <div class="landingPlatforms">
          <div class="container">
@@ -328,15 +374,19 @@ export class NPS extends Component {
                   </div>
                   <h3>4. How to Invest in Mutual funds on Nivesh ?</h3>
                   <div>  
-                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean varius 
-                     cursus. Fusce eu porttitor orci, vel interdum urna. Donec lorem arcu, 
-                     vitae lectus. Vestibulum libero tellus, facilisis id turpis vel, pharetra imperdiet ante. ,
+                  <p>  
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean varius 
+                        cursus. Fusce eu porttitor orci, vel interdum urna. Donec lorem arcu, 
+                        vitae lectus. Vestibulum libero tellus, facilisis id turpis vel, pharetra imperdiet ante. ,
+                     </p>
                   </div>
                   <h3>5. How are returns earned in mutual funds?</h3>
                   <div>  
-                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean varius 
-                     cursus. Fusce eu porttitor orci, vel interdum urna. Donec lorem arcu, 
-                     vitae lectus. Vestibulum libero tellus, facilisis id turpis vel, pharetra imperdiet ante. ,
+                  <p>  
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean varius 
+                        cursus. Fusce eu porttitor orci, vel interdum urna. Donec lorem arcu, 
+                        vitae lectus. Vestibulum libero tellus, facilisis id turpis vel, pharetra imperdiet ante. ,
+                     </p>
                   </div>
                </div>
             </div>

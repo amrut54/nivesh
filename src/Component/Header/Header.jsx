@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.css';
-import Dropdown from '../Dropdown/Dropdown';
+
 import { useState } from 'react';
 import {
   Nav,
@@ -12,26 +12,6 @@ import {
 import logo from './Images/Nivesh 1 (1).png'
 
 const Header = () => {
-  const [click, setClick] = useState(false);
-  const [dropdown, setDropdown] = useState(false);
-  const handleClick = () => setClick(!click);
-  const closeMobileMenu = () => setClick(false);
-
-  const onMouseEnter = () => {
-    if (window.innerWidth < 960) {
-      setDropdown(false);
-    } else {
-      setDropdown(true);
-    }
-  };
-
-  const onMouseLeave = () => {
-    if (window.innerWidth < 960) {
-      setDropdown(false);
-    } else {
-      setDropdown(false);
-    }
-  };
 
 
   return (

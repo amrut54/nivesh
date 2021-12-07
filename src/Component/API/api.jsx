@@ -10,6 +10,7 @@ export class api extends Component {
     
         this.state = {
            items: [],
+           MainTitle:[],
            isLoaded: false
         }
     }
@@ -37,17 +38,18 @@ export class api extends Component {
         fetch(url, requestMetadata)
         .then(response => response.json())
          .then(data=> {
-            this.setState({isLoaded:true, items:data.ObjectResponse.SchemeDataList});
+            this.setState({isLoaded:true, items:data.ObjectResponse.SchemeDataList, MainTitle:data.ObjectResponse.TitleResponse});
             });
     }
 
 
     render() {
-        const { isLoaded, items } = this.state;
+        const { isLoaded, items, MainTitle } = this.state;
         if (!isLoaded) return <div>
             <h1> API is Loading </h1> </div> ;
         return (
             <div className="api">
+                <h2>{MainTitle && MainTitle[1]?.Title}</h2>
                 <h2>Recommended Funds Table  </h2>
                 {items && items.map((item) => (
 
@@ -57,7 +59,7 @@ export class api extends Component {
                     <thead class="thead-blue">
                      <tr>
                        <th colspan="4">{item.SchemeName}
-                       <a href={"https://www.nivesh.com//WebApp/Home/Index?AMCCode=" .concat(item.AMCCode)}target="_blank" class="api-button">Invest Now</a></th>
+                       <a href={`https://www.nivesh.com//WebApp/Home/Index?AMCCode=${item.AMCCode}&selectedcategoryId=${item.Product_category_id}`} target="_blank" class="api-button">Invest Now</a></th>
                    
                         
                 </tr>
@@ -72,7 +74,7 @@ export class api extends Component {
                     <td >{item.OneYearReturn}%</td>
                     <td >{item.TwoYearReturn}%</td>
                     <td>{item.ThreeYearReturn}%</td>
-                    <td>${item.FourYearInterest}%</td>
+                    <td>${item.FiveYearReturn}%</td>
                 </tr>
             </table>
             </div>

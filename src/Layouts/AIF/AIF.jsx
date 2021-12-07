@@ -3,7 +3,47 @@ import bltimg from '../Home/images/Rectangle 2143.png'
 import circle from "../Home/images/Ellipse 32.png"
 
 export class AIF extends Component {
+   constructor() {
+      super()
+  
+      this.state = {
+         items: [],
+         MainTitle:[],
+         isLoaded: false
+      }
+  }
+        
+  componentDidMount() {
+      const url = 'https://nivesh.com/webapi_ucc/API/getSchemeDataFromProduct';
+      const postBody = {
+           ProductCategoryId: 5,
+           ClientCode: "",
+           LanguageId: 1,
+           device: "" ,
+           AMCCode: "" ,
+           SebiCategoryId:"" ,
+           SebiSubCategoryId:"" ,
+           DefaultProductId: "1"
+      };
+      const requestMetadata = {
+          method: 'POST',
+          headers: {
+              'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(postBody)
+      };
+  
+      fetch(url, requestMetadata)
+      .then(response => response.json())
+       .then(data=> {
+          this.setState({isLoaded:true, items:data.ObjectResponse.SchemeDataList, MainTitle:data.ObjectResponse.TitleResponse});
+          });
+  }
+
+
           render() {
+            const { isLoaded, items, MainTitle } = this.state;
+            if (!isLoaded) return null ;
                     return (
                               <main>
                                         <div class="fairaAssets"></div>
@@ -12,7 +52,9 @@ export class AIF extends Component {
             <div class="row">
                <div class="col-lg-8">
                   <h2>Lorem ipsum dolor sit amet</h2>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean accumsan cursus. Fusce eu porttitor orci, vel interdumLorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean accumsan cursus. Fusce eu porttitor orci, vel interdum</p>
+                  <p>Mutual funds invest in a variety of stock and debt options. These options come with varying terms and risks associated. By way of categorization rules set by SEBI, many mutual funds are bound to invest the bulk of their corpus in instruments as per the guidelines. For example, a Large-Cap equity fund will invest a majority of its corpus in Large-cap equities, the same is also followed for Debt funds.<br/><br/>
+On the other hand, Alternative Investment Funds are defined as privately pooled investment funds investing in real estate, private equity, or hedge funds. Depending on the category of investment, they are categorized by SEBI as Category I AIF, Category II AIF, and Category III AIF.  Assets under management or investments can include start-ups, SME funds, infrastructure funds, private equity funds, or even hedge funds that may be trading in listed or unlisted derivatives depending on the type of fund. This gives an AIF considerable leverage to move as per favourable market scenarios to try to maximize returns. 
+</p>
                   <div class="registerFair">
                      <a href="#" title="" class="startInvest">Start Investing</a>
                   </div>
@@ -21,30 +63,57 @@ export class AIF extends Component {
             </div>
          </div>
       
-         <div class="getStarted">
-            <div class="container testimonials">
-               <div class="row">
-                  <div class="col-lg-12">
-                     <h2>Table</h2>
-                  </div>
-                  <p>Table will add by development team</p>
-               </div>
+         <div className="API-Section">
+              <div className="container container-wrapper">
+              <div className="api">
+                <h2>{MainTitle && MainTitle[1]?.Title}</h2>
+                
+                {items && items.map((item) => (
+
+                <div>
+                  
+                <table class="table api-table">
+                    <thead class="thead-blue">
+                     <tr>
+                       <th colspan="4">{item.SchemeName}
+                       <a href={`https://www.nivesh.com//WebApp/Home/Index?AMCCode=${item.AMCCode}&selectedcategoryId=${item.Product_category_id}`} target="_blank" class="api-button">Invest Now</a></th>
+                   
+                        
+                </tr>
+                </thead>
+                <tr id="below-head" colspan="4">
+                    <td >1 Year</td>
+                    <td >2 Year</td>
+                    <td >3 Year</td>
+                    <td >5 Year</td>
+                </tr>
+                <tr id="below-head-values">
+                    <td >{item.OneYearReturn}%</td>
+                    <td >{item.TwoYearReturn}%</td>
+                    <td>{item.ThreeYearReturn}%</td>
+                    <td>${item.FiveYearReturn}%</td>
+                </tr>
+            </table>
             </div>
-         </div>
+                ))}
+            </div>
+
+              </div>
+
+            </div>
          
          <div class="container features">
             <div class="row">
                <div class="col-lg-12">
-                  <h2>Features and Benefits</h2>
-                  <p>Nam in aliquet mi. Duis tempus ante turpis, et congue ante consequat ac. Mauris in ornare diam, </p>
+                  <h2>Features and Benefits of Alternative Investment Funds</h2>
+                  <p>As the name suggests Alternative Investment Funds in India are non-traditional investments. This means the assets under such funds are not correlated to the stock market. These funds are primarily for high-net-worth investors looking for diversification and better potential returns while absorbing the accompanying risk. <br/><br/>
+                  Some of the benefits and features of Alternative Investment Funds are:</p>
                </div>
                 <div class="col-lg-4">
                   <div class="imgFeatures">
                      <img src={circle}/>
                      <h4>Individual Investment</h4>
-                     <p>Nemo enim ipsam voluptatem 
-                        quia voluptas sit aspernatur
-                        aut odit aut fugit, sed quia.
+                     <p>Diversification is one of the key features of these funds. They have considerable freedom to decide where to invest unlike most funds which are regulated by SEBI
                      </p>
                   </div>
                </div>
@@ -52,9 +121,7 @@ export class AIF extends Component {
                   <div class="imgFeatures">
                      <img src={circle}/>
                      <h4>Minimizes Risk</h4>
-                     <p>Nemo enim ipsam voluptatem 
-                        quia voluptas sit aspernatur
-                        aut odit aut fugit, sed quia.
+                     <p>Non-traditional investment options are available to these funds which are not generally open to all investors. 
                      </p>
                   </div>
                </div>
@@ -62,9 +129,7 @@ export class AIF extends Component {
                   <div class="imgFeatures">
                      <img src={circle}/>
                      <h4>Diversification</h4>
-                     <p>Nemo enim ipsam voluptatem 
-                        quia voluptas sit aspernatur
-                        aut odit aut fugit, sed quia.
+                     <p>Potential returns are a factor considering the type of non-traditional assets these funds invest in.
                      </p>
                   </div>
                </div>
@@ -72,9 +137,7 @@ export class AIF extends Component {
                   <div class="imgFeatures">
                      <img src={circle}/>
                      <h4>Higher Returns</h4>
-                     <p>Nemo enim ipsam voluptatem 
-                        quia voluptas sit aspernatur
-                        aut odit aut fugit, sed quia.
+                     <p>The minimum investment amount is INR 1 crore depending on the type of AIF
                      </p>
                   </div>
                </div>
@@ -134,11 +197,13 @@ export class AIF extends Component {
                      </div>
                   </div>
                   <div class="col-lg-4">
+                     <div className="cat-box">
                      <div class="imgFeatures">
                         <img src={circle}/>
                         <h4>Infrastructure Funds</h4>
                         <p>Know More About Infrastructure Funds</p>
                         <div class="moreLink"><a href="#">More</a></div>
+                     </div>
                      </div>
                   </div>
                </div>
@@ -237,32 +302,36 @@ export class AIF extends Component {
          </div>
       </div>
 
-      <div class="getCustomer">
-         <div class="container">
-            <div class="row">
-               <div class="col-lg-3">
-                  <div class="customerDiv">
-                     <p>11,000<br/>CUSTOMERS</p>
-                  </div>
-               </div>
-               <div class="col-lg-3">
-                  <div class="customerDiv">
-                     <p>1000+<br/>PARTENERS</p>
-                  </div>
-               </div>
-               <div class="col-lg-3">
-                  <div class="customerDiv">
-                     <p>400,000+<br/>TRANSACTIONS EXECUTED</p>
-                  </div>
-               </div>
-               <div class="col-lg-3">
-                  <div class="customerDiv">
-                     <p>1,000+<br/>TOTAL TRANSACTION VALUE</p>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
+      <div id="about-stats">
+              <div className="container container-wrapper">
+                <div className="row align-items-center">
+                   <div className="col-lg-3 col-md-6 col-12">
+                     <div className="card-box">
+                       <h3> 11,000+</h3>
+                       <h4>CUSTOMERS</h4>
+                     </div>
+                   </div>
+                   <div className="col-lg-3 col-md-6 col-12">
+                     <div className="card-box">
+                     <h3> 1,000+</h3>
+                       <h4>PARTNERS</h4>
+                     </div>
+                   </div>
+                   <div className="col-lg-3 col-md-6 col-12">
+                     <div className="card-box">
+                       <h3>400,000+</h3>
+                       <h4>TRANSACTIONS EXECUTED</h4>
+                     </div>
+                   </div>
+                   <div className="col-lg-3 col-md-6 col-12">
+                     <div className="card-box">
+                       <h3>1,000 Cr+</h3>
+                       <h4>TOTAL TRANSACTION VALUE</h4>
+                     </div>
+                   </div>
+                </div>
+              </div>
+          </div>
    
       <div class="calCulator">
          <div class="container">

@@ -104,11 +104,9 @@
   margin: 50px 0px;
 }
 
-.getStartedBtn {}
 
-.getStartedBtn h2 {
-  margin-top: 140px;
-}
+
+
 
 .landMoney {
   float: left;
@@ -233,10 +231,8 @@
 
 .imgFeatures img {
   display: block;
-  width: 150px;
   margin-right: auto;
   margin-left: auto;
-  margin-top: 32px;
 }
 
 .imgFeatures h4 {
@@ -272,14 +268,12 @@
 
 .invest .imgFeatures {
   background: #F8F8F8;
-  width: 270px;
   margin: 0 auto;
-  padding: 30px 20px;
+  padding: 20px;
 }
 
 .getCustomer {
-  background-color: #2a2a72;
-  background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+  background: linear-gradient(90deg, #3C80BF 15.16%, #243B71 80.47%);
   width: 100%;
 }
 
@@ -526,10 +520,7 @@
 }
 
 .ourPartner {
-  background: #fff;
   padding: 5%;
-  max-width: 350px;
-  width: 100%;
   margin: 0 auto;
 }
 
@@ -540,22 +531,16 @@
   font-size: 20px;
   line-height: 24px;
   text-align: center;
-  letter-spacing: -0.02em;
-  color: #000000;
+  color: white;
   margin-bottom: 20px;
-  margin-top: 50px;
 }
 
 .ourPartner p {
-  color: #000000 !important;
   font-family: Montserrat;
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
-  line-height: 30px;
   text-align: center;
-  letter-spacing: -0.015em;
-  color: rgba(0, 0, 0, 0.8);
+  color: white;
 }
 
 .ourPartnerWrp .ctaBtn a {
@@ -869,8 +854,8 @@
   margin-bottom: 50px;
 }
 
-.formKnow {
-  border: 1px solid #0BA4A6;
+.category-list{
+  border: 1px solid #BEBDBD;
   border-radius: 5px;
   padding: 5%;
 }
@@ -994,7 +979,7 @@ input#search-input {
 }
 
 .calculatorType {
-  border-top: 1px solid #0BA4A6;
+  border-top: 1px solid #BEBDBD;
   padding: 10px 5%;
 }
 
@@ -1012,7 +997,7 @@ input#search-input {
 }
 
 .calCulate h4 {
-  border-top: 1px solid #0BA4A6;
+  border-top: 1px solid #BEBDBD;
   padding: 10px 5%;
   font-family: Montserrat;
   font-style: normal;
@@ -1050,7 +1035,7 @@ input#search-input {
   margin-bottom: 50px;
   float: left;
   width: 100%;
-  padding: 1% 0%;
+  padding: 20px;
 }
 
 .whyInvest ul li {
@@ -1092,3 +1077,7 @@ input#search-input {
   color: #1E2A5E;
 }
 
+/** PMS PAGE **/
+.pms-product card{
+  padding:30px;
+}

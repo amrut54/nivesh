@@ -1,0 +1,55 @@
+.bg-myRed{
+          background-color: crimson;
+        }
+        
+        .content{
+          padding: 12px;
+          height: 3000px;
+        }
+        
+        .coloring{
+          color: black;
+        }
+
+        .navbar-brand{
+                  height:auto;
+                  
+        }
+
+        .navbar-light .navbar-nav .nav-link{
+                  color:black;
+                  font-size: 16px;
+                  font-weight: 600;
+                  font-family: 'Raleway', sans-serif;
+                  color: black;
+        }
+
+        .navbar-light .navbar-nav .nav-link:hover{
+                  color:#f89748;
+        }
+
+        .navbar-light .navbar-nav .nav-link.active{
+          color:#f89748;
+        }
+
+        .right-aligned{
+                  justify-content: flex-end;
+        }
+
+        .navbar{
+                  margin-bottom: 60px;
+                  margin-top: 10px;
+                  padding: 0px;
+        }
+
+      
+
+      @media(max-width:768px){
+        .navbar-brand{
+          margin-right: 0px;
+        }
+      }
+
+      .nav-item:hover .dropdown-menu{
+        display:block!important
+      }
